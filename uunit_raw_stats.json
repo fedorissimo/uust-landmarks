@@ -1,0 +1,1024 @@
+{
+  "meta": {
+    "title": "УУНиТ Точки — сырые данные и статистика (реальные точки у корпуса на К. Маркса, 12)",
+    "generated_at": "2026-11-06",
+    "city": "Уфа",
+    "university": "УУНиТ",
+    "currency": "RUB",
+    "format_note": "Плоский набор: статистика + реальные заведения у корпуса на Карла Маркса, 12 + краткая сводка по общежитиям.",
+    "data_status": {
+      "stats": "Из открытых источников, годы указаны у каждого показателя.",
+      "establishments": "Реальные заведения в радиусе ~400 м от корпуса. Названия, адреса, часы и рейтинги — из OpenStreetMap и ТотАдрес.ру на 2026-11-06. Средний чек с пометкой estimate — оценка, не из источника.",
+      "dorms": "Адреса реальные (сайт УУНиТ). Цена, места, рейтинг — демонстрационные."
+    },
+    "focus_point": {
+      "name": "Корпус УУНиТ (УГАТУ)",
+      "address": "ул. Карла Маркса, 12",
+      "lat": 54.7247589,
+      "lng": 55.9423799
+    },
+    "counts": {
+      "establishments": 16,
+      "dorms": 14
+    },
+    "establishments_note": "Подборка ориентирована на студентов: фастфуд, шаурма, столовая, кофейни и недорогие кафе в пешей доступности от К. Маркса, 12. Часы работы и цены могут меняться — перед защитой стоит перепроверить.",
+    "rating_note": "Рейтинги — ТотАдрес.ру по 5-балльной шкале; null означает, что достоверного рейтинга в источнике нет."
+  },
+  "stats": {
+    "city": {
+      "population": {
+        "value": 1166098,
+        "unit": "чел.",
+        "year": 2025,
+        "source_id": "src_01"
+      },
+      "students_he_estimate": {
+        "value": 100000,
+        "unit": "чел.",
+        "year": 2025,
+        "source_id": "src_02",
+        "note": "Оценка: все вузы Уфы, включая УУНиТ"
+      }
+    },
+    "region": {
+      "students_he": {
+        "value": 106926,
+        "unit": "чел.",
+        "year": 2024,
+        "source_id": "src_02"
+      },
+      "students_full_time": {
+        "value": 58296,
+        "unit": "чел.",
+        "year": 2024,
+        "source_id": "src_02"
+      },
+      "students_full_time_share": {
+        "value": 0.55,
+        "unit": "доля",
+        "year": 2024,
+        "source_id": "src_02"
+      }
+    },
+    "university": {
+      "students_total": {
+        "value": 50000,
+        "unit": "чел.",
+        "year": 2024,
+        "source_id": "src_03"
+      },
+      "students_international": {
+        "value": 3000,
+        "unit": "чел.",
+        "year": 2024,
+        "source_id": "src_03"
+      },
+      "regions_of_origin": {
+        "value": 44,
+        "unit": "регион",
+        "year": 2024,
+        "source_id": "src_03"
+      },
+      "campuses": {
+        "value": 2,
+        "unit": "шт.",
+        "year": 2026,
+        "source_id": "src_04"
+      },
+      "dormitories": {
+        "value": 16,
+        "unit": "шт.",
+        "year": 2026,
+        "source_id": "src_04"
+      },
+      "dormitory_min_price": {
+        "value": 1000,
+        "unit": "руб./мес",
+        "year": 2026,
+        "source_id": "src_04"
+      }
+    },
+    "digital": {
+      "internet_users_15plus_share": {
+        "value": 0.91,
+        "unit": "доля",
+        "year": 2025,
+        "source_id": "src_05"
+      },
+      "households_connected_share": {
+        "value": 0.92,
+        "unit": "доля",
+        "year": 2025,
+        "source_id": "src_05"
+      },
+      "households_with_smartphone_share": {
+        "value": 0.9,
+        "unit": "доля",
+        "year": 2025,
+        "source_id": "src_05"
+      },
+      "yandex_geo_services_mau": {
+        "value": 91000000,
+        "unit": "чел./мес",
+        "year": 2024,
+        "source_id": "src_06"
+      },
+      "yandex_maps_ad_revenue_growth": {
+        "value": 0.8,
+        "unit": "доля",
+        "year": 2024,
+        "source_id": "src_06"
+      },
+      "yandex_maps_smb_advertisers_growth": {
+        "value": 0.41,
+        "unit": "доля",
+        "year": 2024,
+        "source_id": "src_06"
+      }
+    },
+    "student_money": {
+      "average_budget": {
+        "value": 34000,
+        "unit": "руб./мес",
+        "year": 2026,
+        "source_id": "src_07"
+      },
+      "food_share": {
+        "value": 0.49,
+        "unit": "доля",
+        "year": 2026,
+        "source_id": "src_07"
+      },
+      "food_budget": {
+        "value": 16660,
+        "unit": "руб./мес",
+        "year": 2026,
+        "source_id": "src_07",
+        "note": "49% от 34 000"
+      },
+      "under_30k_share": {
+        "value": 0.54,
+        "unit": "доля",
+        "year": 2026,
+        "source_id": "src_07"
+      },
+      "avoid_eating_out_share": {
+        "value": 0.27,
+        "unit": "доля",
+        "year": 2026,
+        "source_id": "src_07"
+      }
+    },
+    "food_market": {
+      "average_check_bashkortostan": {
+        "value": 856,
+        "unit": "руб.",
+        "year": 2025,
+        "month": 6,
+        "source_id": "src_08"
+      },
+      "average_check_russia": {
+        "value": 825,
+        "unit": "руб.",
+        "year": 2025,
+        "month": 6,
+        "source_id": "src_08"
+      },
+      "average_check_growth_yoy": {
+        "value": 0.16,
+        "unit": "доля",
+        "year": 2025,
+        "source_id": "src_08"
+      },
+      "catering_turnover_5m": {
+        "value": 23500000000,
+        "unit": "руб.",
+        "year": 2025,
+        "period": "январь-май",
+        "source_id": "src_08"
+      },
+      "catering_turnover_growth": {
+        "value": 0.072,
+        "unit": "доля",
+        "year": 2025,
+        "source_id": "src_08"
+      },
+      "student_check_estimate": {
+        "value": 350,
+        "unit": "руб.",
+        "year": 2026,
+        "note": "Оценка, не измерение"
+      }
+    }
+  },
+  "establishments": [
+    {
+      "id": "est_01",
+      "name": "Вкусно — и точка",
+      "brand": "Вкусно — и точка",
+      "category": "food",
+      "subcategory": "fastfood",
+      "cuisine": [
+        "бургеры"
+      ],
+      "address": "ул. Ленина, 5",
+      "address_precision": "exact",
+      "floor": null,
+      "lat": 54.724154,
+      "lng": 55.9461457,
+      "distance_to_main_campus_m": 250,
+      "hours": {
+        "mon_sun": "07:00-00:00"
+      },
+      "hours_status": "confirmed",
+      "avg_check_rub": 250,
+      "avg_check_status": "source",
+      "price_level": 1,
+      "rating": null,
+      "reviews_count": null,
+      "rating_source": null,
+      "features": [
+        "wifi",
+        "доставка",
+        "завтраки",
+        "оплата картой",
+        "терраса"
+      ],
+      "source": "ТотАдрес.ру",
+      "source_url": "https://totadres.ru/ufa/org/vkusno_i_tochka/1310238",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_02",
+      "name": "Rostic's",
+      "brand": "Rostic's",
+      "category": "food",
+      "subcategory": "fastfood",
+      "cuisine": [
+        "курица"
+      ],
+      "address": "ул. Коммунистическая, 49",
+      "address_precision": "exact",
+      "floor": null,
+      "lat": 54.7267091,
+      "lng": 55.9449632,
+      "distance_to_main_campus_m": 270,
+      "hours": {
+        "mon_sun": "09:00-22:30"
+      },
+      "hours_status": "confirmed",
+      "avg_check_rub": 350,
+      "avg_check_status": "estimate",
+      "price_level": 2,
+      "rating": null,
+      "reviews_count": null,
+      "rating_source": null,
+      "features": [
+        "wifi",
+        "на вынос",
+        "оплата картой"
+      ],
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/1325304301",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_03",
+      "name": "Бургер Кинг",
+      "brand": "Burger King",
+      "category": "food",
+      "subcategory": "fastfood",
+      "cuisine": [
+        "бургеры"
+      ],
+      "address": "ул. Свердлова, 100",
+      "address_precision": "exact",
+      "floor": null,
+      "lat": 54.7251992,
+      "lng": 55.9403275,
+      "distance_to_main_campus_m": 140,
+      "hours": {
+        "mon_sat": "08:00-02:00",
+        "sun": "09:00-02:00"
+      },
+      "hours_status": "confirmed",
+      "avg_check_rub": 400,
+      "avg_check_status": "estimate",
+      "price_level": 2,
+      "rating": null,
+      "reviews_count": null,
+      "rating_source": null,
+      "features": [
+        "wifi",
+        "на вынос",
+        "веранда",
+        "оплата картой"
+      ],
+      "source": "OpenStreetMap + Yango Maps",
+      "source_url": "https://www.openstreetmap.org/node/3621366403",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_04",
+      "name": "Додо Пицца",
+      "brand": "Додо Пицца",
+      "category": "food",
+      "subcategory": "pizza",
+      "cuisine": [
+        "пицца"
+      ],
+      "address": "Верхнеторговая пл., 1, Гостиный двор, 1 этаж",
+      "address_precision": "building",
+      "floor": "1",
+      "lat": 54.7249825,
+      "lng": 55.9441737,
+      "distance_to_main_campus_m": 120,
+      "hours": {
+        "mon_sun": "10:00-23:00"
+      },
+      "hours_status": "closing_time_only",
+      "avg_check_rub": 500,
+      "avg_check_status": "source",
+      "price_level": 2,
+      "rating": 4.0,
+      "reviews_count": 98,
+      "rating_source": "totadres.ru",
+      "features": [
+        "доставка",
+        "вегетарианские опции",
+        "на вынос",
+        "оплата картой"
+      ],
+      "source": "ТотАдрес.ру",
+      "source_url": "https://totadres.ru/ufa/org/dodo_picca/4305074",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_05",
+      "name": "ДонерБери",
+      "brand": "ДонерБери",
+      "category": "food",
+      "subcategory": "shawarma",
+      "cuisine": [
+        "донер"
+      ],
+      "address": "Верхнеторговая пл., 1, Гостиный двор",
+      "address_precision": "building",
+      "floor": "1",
+      "lat": 54.7249825,
+      "lng": 55.9441737,
+      "distance_to_main_campus_m": 120,
+      "hours": {
+        "mon_sun": "24/7"
+      },
+      "hours_status": "confirmed",
+      "avg_check_rub": 300,
+      "avg_check_status": "estimate",
+      "price_level": 1,
+      "rating": 4.9,
+      "reviews_count": 1844,
+      "rating_source": "totadres.ru",
+      "features": [
+        "круглосуточно",
+        "на вынос",
+        "оплата картой"
+      ],
+      "source": "ТотАдрес.ру",
+      "source_url": "https://totadres.ru/ufa/org/donerberi/3114288",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_06",
+      "name": "I wok you",
+      "brand": "I wok you",
+      "category": "food",
+      "subcategory": "asian",
+      "cuisine": [
+        "азиатская",
+        "китайская"
+      ],
+      "address": "ул. Ленина, 5, корп. 2",
+      "address_precision": "exact",
+      "floor": null,
+      "lat": 54.7243169,
+      "lng": 55.9462651,
+      "distance_to_main_campus_m": 250,
+      "hours": {
+        "mon_thu": "11:00-01:00",
+        "fri_sat": "11:00-06:00",
+        "sun": "12:00-01:00"
+      },
+      "hours_status": "confirmed",
+      "avg_check_rub": 450,
+      "avg_check_status": "source",
+      "price_level": 2,
+      "rating": 3.5,
+      "reviews_count": 45,
+      "rating_source": "totadres.ru",
+      "features": [
+        "wifi",
+        "бизнес-ланч",
+        "доставка",
+        "оплата картой"
+      ],
+      "source": "ТотАдрес.ру",
+      "source_url": "https://totadres.ru/ufa/org/i_wok_you/1311877",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_07",
+      "name": "Super Burger",
+      "brand": "Super Burger",
+      "category": "food",
+      "subcategory": "fastfood",
+      "cuisine": [
+        "бургеры"
+      ],
+      "address": "Верхнеторговая пл., 1, Гостиный двор, 1 этаж",
+      "address_precision": "building",
+      "floor": "1",
+      "lat": 54.7249825,
+      "lng": 55.9441737,
+      "distance_to_main_campus_m": 120,
+      "hours": {
+        "mon_thu": "11:00-23:00",
+        "fri_sat": "11:00-01:00",
+        "sun": "11:00-23:00"
+      },
+      "hours_status": "confirmed",
+      "avg_check_rub": 500,
+      "avg_check_status": "source",
+      "price_level": 2,
+      "rating": 4.4,
+      "reviews_count": 83,
+      "rating_source": "totadres.ru",
+      "features": [
+        "веранда",
+        "на вынос",
+        "оплата картой"
+      ],
+      "source": "ТотАдрес.ру",
+      "source_url": "https://totadres.ru/ufa/org/super_burger/3109126",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_08",
+      "name": "Ram-San street food",
+      "brand": "Ram-San",
+      "category": "food",
+      "subcategory": "fastfood",
+      "cuisine": [
+        "стритфуд"
+      ],
+      "address": "Верхнеторговая пл., 1, Гостиный двор, 1 этаж",
+      "address_precision": "building",
+      "floor": "1",
+      "lat": 54.7249825,
+      "lng": 55.9441737,
+      "distance_to_main_campus_m": 120,
+      "hours": {
+        "mon_sun": "10:00-21:00"
+      },
+      "hours_status": "confirmed",
+      "avg_check_rub": 350,
+      "avg_check_status": "estimate",
+      "price_level": 2,
+      "rating": 4.4,
+      "reviews_count": 228,
+      "rating_source": "totadres.ru",
+      "features": [
+        "самса",
+        "шашлык",
+        "хот-доги",
+        "оплата картой"
+      ],
+      "source": "ТотАдрес.ру",
+      "source_url": "https://totadres.ru/ufa/org/ram-san_street_food/3088300",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_09",
+      "name": "Киоск турецкой шаурмы",
+      "brand": null,
+      "category": "food",
+      "subcategory": "shawarma",
+      "cuisine": [
+        "шаурма"
+      ],
+      "address": "Верхнеторговая пл., 1, Гостиный двор, 1 этаж",
+      "address_precision": "building",
+      "floor": "1",
+      "lat": 54.7249825,
+      "lng": 55.9441737,
+      "distance_to_main_campus_m": 120,
+      "hours": {
+        "mon_sun": "24/7"
+      },
+      "hours_status": "confirmed",
+      "avg_check_rub": 220,
+      "avg_check_status": "source",
+      "price_level": 1,
+      "rating": 4.7,
+      "reviews_count": 226,
+      "rating_source": "totadres.ru",
+      "features": [
+        "круглосуточно",
+        "на вынос",
+        "оплата картой"
+      ],
+      "source": "ТотАдрес.ру",
+      "source_url": "https://totadres.ru/ufa/org/kiosk_tureckoy_shaurmy/3109061",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_10",
+      "name": "Уфимский трамвайчик",
+      "brand": null,
+      "category": "food",
+      "subcategory": "fastfood",
+      "cuisine": [
+        "халяль",
+        "фастфуд"
+      ],
+      "address": "Верхнеторговая пл., 3, корп. 2",
+      "address_precision": "building",
+      "floor": null,
+      "lat": 54.7257205,
+      "lng": 55.9452968,
+      "distance_to_main_campus_m": 215,
+      "hours": {
+        "mon_sun": "10:00-22:00"
+      },
+      "hours_status": "closing_time_only",
+      "avg_check_rub": 150,
+      "avg_check_status": "source",
+      "price_level": 1,
+      "rating": null,
+      "reviews_count": null,
+      "rating_source": null,
+      "features": [
+        "халяль",
+        "на вынос"
+      ],
+      "source": "ТотАдрес.ру",
+      "source_url": "https://totadres.ru/ufa/org/vkusnyy_tramvaychik/1307532",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_11",
+      "name": "Баракат",
+      "brand": null,
+      "category": "food",
+      "subcategory": "canteen",
+      "cuisine": [
+        "халяль",
+        "домашняя кухня"
+      ],
+      "address": "Верхнеторговая пл., 3, корп. 1",
+      "address_precision": "building",
+      "floor": null,
+      "lat": 54.7257205,
+      "lng": 55.9452968,
+      "distance_to_main_campus_m": 215,
+      "hours": {
+        "mon_fri": "08:00-22:00",
+        "sat_sun": "09:00-22:00"
+      },
+      "hours_status": "confirmed",
+      "avg_check_rub": 280,
+      "avg_check_status": "source",
+      "price_level": 1,
+      "rating": 4.0,
+      "reviews_count": 18,
+      "rating_source": "totadres.ru",
+      "features": [
+        "халяль",
+        "столовая",
+        "оплата картой"
+      ],
+      "source": "ТотАдрес.ру",
+      "source_url": "https://totadres.ru/ufa/org/barakat/1313951",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_12",
+      "name": "Старик Хинкалыч",
+      "brand": "Старик Хинкалыч",
+      "category": "food",
+      "subcategory": "national",
+      "cuisine": [
+        "грузинская"
+      ],
+      "address": "Верхнеторговая пл., 6, БЦ «Нестеров», 1 этаж",
+      "address_precision": "building",
+      "floor": "1",
+      "lat": 54.7241276,
+      "lng": 55.9452635,
+      "distance_to_main_campus_m": 200,
+      "hours": {
+        "mon_sun": "10:00-23:00"
+      },
+      "hours_status": "closing_time_only",
+      "avg_check_rub": 500,
+      "avg_check_status": "estimate",
+      "price_level": 2,
+      "rating": 4.2,
+      "reviews_count": 427,
+      "rating_source": "totadres.ru",
+      "features": [
+        "грузинская кухня",
+        "на вынос",
+        "оплата картой"
+      ],
+      "source": "ТотАдрес.ру",
+      "source_url": "https://totadres.ru/ufa/org/starik_hinkalych/5302676",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_13",
+      "name": "Столовая БГМУ",
+      "brand": null,
+      "category": "food",
+      "subcategory": "canteen",
+      "cuisine": [
+        "домашняя кухня"
+      ],
+      "address": "ул. Ленина, 3 (БГМУ)",
+      "address_precision": "building",
+      "access_note": "Столовая БГМУ; вход может быть ограничен для не-студентов БГМУ.",
+      "floor": null,
+      "lat": 54.7213822,
+      "lng": 55.9433155,
+      "distance_to_main_campus_m": 380,
+      "hours": {
+        "mon_sat": "10:00-15:00",
+        "sun": "closed"
+      },
+      "hours_status": "confirmed",
+      "avg_check_rub": 200,
+      "avg_check_status": "estimate",
+      "price_level": 1,
+      "rating": null,
+      "reviews_count": null,
+      "rating_source": null,
+      "features": [
+        "столовая",
+        "бюджетно"
+      ],
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/9007181217",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_14",
+      "name": "Своя публика",
+      "brand": null,
+      "category": "food",
+      "subcategory": "cafe",
+      "cuisine": [
+        "домашняя кухня",
+        "кофе"
+      ],
+      "address": "ул. Пушкина",
+      "address_precision": "street",
+      "floor": null,
+      "lat": 54.7221762,
+      "lng": 55.9419293,
+      "distance_to_main_campus_m": 290,
+      "hours": {
+        "mon_sun": "08:00-21:00"
+      },
+      "hours_status": "confirmed",
+      "avg_check_rub": 300,
+      "avg_check_status": "estimate",
+      "price_level": 1,
+      "rating": null,
+      "reviews_count": null,
+      "rating_source": null,
+      "features": [
+        "обед",
+        "кофе",
+        "домашняя кухня"
+      ],
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/518699383",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_15",
+      "name": "Coffee Like",
+      "brand": "Coffee Like",
+      "category": "food",
+      "subcategory": "coffee",
+      "cuisine": [
+        "кофе"
+      ],
+      "address": "Верхнеторговая пл., 6",
+      "address_precision": "building",
+      "floor": null,
+      "lat": 54.7241276,
+      "lng": 55.9452635,
+      "distance_to_main_campus_m": 200,
+      "hours": {
+        "mon_fri": "08:00-18:00",
+        "sat_sun": "closed"
+      },
+      "hours_status": "confirmed",
+      "avg_check_rub": 200,
+      "avg_check_status": "estimate",
+      "price_level": 1,
+      "rating": null,
+      "reviews_count": null,
+      "rating_source": null,
+      "features": [
+        "кофе с собой",
+        "оплата картой"
+      ],
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/6536734336",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    },
+    {
+      "id": "est_16",
+      "name": "Coffee Like",
+      "brand": "Coffee Like",
+      "category": "food",
+      "subcategory": "coffee",
+      "cuisine": [
+        "кофе"
+      ],
+      "address": "ул. Ленина, 5",
+      "address_precision": "exact",
+      "floor": null,
+      "lat": 54.7239008,
+      "lng": 55.9461094,
+      "distance_to_main_campus_m": 260,
+      "hours": {
+        "mon_sun": "24/7"
+      },
+      "hours_status": "confirmed",
+      "avg_check_rub": 200,
+      "avg_check_status": "estimate",
+      "price_level": 1,
+      "rating": null,
+      "reviews_count": null,
+      "rating_source": null,
+      "features": [
+        "круглосуточно",
+        "кофе с собой"
+      ],
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/6996308438",
+      "checked_at": "2026-11-06",
+      "data_status": "real"
+    }
+  ],
+  "dorms": {
+    "summary": {
+      "total_dormitories": 16,
+      "campuses": 2,
+      "min_price_rub_month": 1000,
+      "max_price_rub_month": 1600,
+      "avg_price_rub_month": 1296,
+      "total_places": 5880,
+      "total_free_places": 296,
+      "list_note": "В открытом перечне на сайте вуза 14 адресов; всего заявлено 16 общежитий."
+    },
+    "list": [
+      {
+        "id": "dorm_01",
+        "address": "ул. Заки Валиди, 32а",
+        "campus": "СГ №1",
+        "price_rub_month": 1100,
+        "places_total": 600,
+        "places_free": 45,
+        "distance_main_m": 70,
+        "rating": 4.1
+      },
+      {
+        "id": "dorm_02",
+        "address": "ул. Заки Валиди, 33",
+        "campus": "СГ №1",
+        "price_rub_month": 1150,
+        "places_total": 450,
+        "places_free": 12,
+        "distance_main_m": 130,
+        "rating": 4.0
+      },
+      {
+        "id": "dorm_03",
+        "address": "ул. Свердлова, 60/1",
+        "campus": "СГ №1",
+        "price_rub_month": 1200,
+        "places_total": 380,
+        "places_free": 0,
+        "distance_main_m": 640,
+        "rating": 4.2
+      },
+      {
+        "id": "dorm_04",
+        "address": "ул. Аксакова, 53",
+        "campus": "СГ №1",
+        "price_rub_month": 1250,
+        "places_total": 300,
+        "places_free": 8,
+        "distance_main_m": 630,
+        "rating": 4.3
+      },
+      {
+        "id": "dorm_05",
+        "address": "ул. Гоголя, 15",
+        "campus": "СГ №1",
+        "price_rub_month": 1400,
+        "places_total": 220,
+        "places_free": 3,
+        "distance_main_m": 170,
+        "rating": 4.5
+      },
+      {
+        "id": "dorm_06",
+        "address": "ул. Достоевского, 133",
+        "campus": "СГ №1",
+        "price_rub_month": 1100,
+        "places_total": 350,
+        "places_free": 15,
+        "distance_main_m": 2700,
+        "rating": 3.8
+      },
+      {
+        "id": "dorm_07",
+        "address": "ул. 8 Марта, 2",
+        "campus": "СГ №2",
+        "price_rub_month": 1300,
+        "places_total": 500,
+        "places_free": 60,
+        "distance_main_m": 7800,
+        "rating": 3.9
+      },
+      {
+        "id": "dorm_08",
+        "address": "ул. 8 Марта, 4",
+        "campus": "СГ №2",
+        "price_rub_month": 1000,
+        "places_total": 500,
+        "places_free": 42,
+        "distance_main_m": 7870,
+        "rating": 3.6
+      },
+      {
+        "id": "dorm_09",
+        "address": "ул. 8 Марта, 6",
+        "campus": "СГ №2",
+        "price_rub_month": 1350,
+        "places_total": 500,
+        "places_free": 25,
+        "distance_main_m": 7930,
+        "rating": 4.2
+      },
+      {
+        "id": "dorm_10",
+        "address": "ул. 8 Марта, 8",
+        "campus": "СГ №2",
+        "price_rub_month": 1450,
+        "places_total": 500,
+        "places_free": 18,
+        "distance_main_m": 7980,
+        "rating": 4.3
+      },
+      {
+        "id": "dorm_11",
+        "address": "ул. Мингажева, 162",
+        "campus": "СГ №2",
+        "price_rub_month": 1500,
+        "places_total": 420,
+        "places_free": 7,
+        "distance_main_m": 2970,
+        "rating": 4.6
+      },
+      {
+        "id": "dorm_12",
+        "address": "ул. Мингажева, 160",
+        "campus": "СГ №2",
+        "price_rub_month": 1200,
+        "places_total": 400,
+        "places_free": 20,
+        "distance_main_m": 2940,
+        "rating": 4.1
+      },
+      {
+        "id": "dorm_13",
+        "address": "ул. Мингажева, 160/1",
+        "campus": "СГ №2",
+        "price_rub_month": 1550,
+        "places_total": 380,
+        "places_free": 11,
+        "distance_main_m": 2950,
+        "rating": 4.5
+      },
+      {
+        "id": "dorm_14",
+        "address": "ул. Мингажева, 158/1",
+        "campus": "СГ №2",
+        "price_rub_month": 1600,
+        "places_total": 380,
+        "places_free": 30,
+        "distance_main_m": 2970,
+        "rating": 4.7
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_01",
+      "publisher": "Панорама Башкортостана / Башкортостанстат",
+      "title": "Уточнена численность населения муниципалитетов Башкирии",
+      "date": "2025-04-25",
+      "url": "https://panoramarb.ru/news/%D1%80%D0%B5%D0%B3%D0%B8%D0%BE%D0%BD/2025-04-25/utochnena-chislennost-naseleniya-munitsipalitetov-bashkirii-4213885"
+    },
+    {
+      "id": "src_02",
+      "publisher": "РесБаш / Минобрнауки РФ",
+      "title": "В Башкирии высшее образование получает более 100 тысяч студентов",
+      "date": "2025-01-26",
+      "url": "https://resbash.ru/news/obrazovanie/2025-01-26/v-bashkirii-vysshee-obrazovanie-poluchaet-bolee-100-tysyach-studentov-4097025"
+    },
+    {
+      "id": "src_03",
+      "publisher": "ИА «Башинформ» / УУНиТ",
+      "title": "В Уфимском университете учатся более 50 тысяч студентов из 44 регионов России",
+      "date": "2024-11-01",
+      "url": "https://www.bashinform.ru/articles/detalno/2024-11-01/v-ufimskom-universitete-uchatsya-bolee-50-tysyach-studentov-iz-44-regionov-rossii-3991378"
+    },
+    {
+      "id": "src_04",
+      "publisher": "УУНиТ",
+      "title": "Информация об общежитиях",
+      "date": "2026",
+      "url": "https://uust.ru/ar/dormitories/"
+    },
+    {
+      "id": "src_05",
+      "publisher": "ИСИЭЗ НИУ ВШЭ / Росстат",
+      "title": "Интернет стал нормой жизни россиян",
+      "date": "2026-04-01",
+      "url": "https://issek.hse.ru/news/1143575318.html"
+    },
+    {
+      "id": "src_06",
+      "publisher": "BFM.ru / «Яндекс»",
+      "title": "«Яндекс Карты» объявили о росте рекламной выручки",
+      "date": "2025-02-20",
+      "url": "https://www.bfm.ru/news/568086"
+    },
+    {
+      "id": "src_07",
+      "publisher": "«Краснодарские известия» / «Авито»",
+      "title": "Российские студенты рассказали, на что тратят 34 тысячи в месяц",
+      "date": "2026-01-21",
+      "url": "https://ki-news.ru/news/rossijskie-studenty-rasskazali-na-chto-tratyat-34-tysyachi-v-mesyacz/"
+    },
+    {
+      "id": "src_08",
+      "publisher": "РБК Уфа / «Контур.Маркет»",
+      "title": "Средний чек в кафе и ресторанах в Башкирии за год вырос на 16%",
+      "date": "2025-07-20",
+      "url": "https://ufa.rbc.ru/ufa/20/07/2025/687caba79a79474169932a03"
+    },
+    {
+      "id": "src_09",
+      "publisher": "OpenStreetMap",
+      "title": "Данные OSM по заведениям у корпуса на К. Маркса, 12",
+      "date": "2026-11-06",
+      "url": "https://www.openstreetmap.org/"
+    },
+    {
+      "id": "src_10",
+      "publisher": "ТотАдрес.ру",
+      "title": "Карточки заведений Уфы: адреса, часы, рейтинги, средний чек",
+      "date": "2026-11-06",
+      "url": "https://totadres.ru/ufa/"
+    },
+    {
+      "id": "src_11",
+      "publisher": "Yango Maps",
+      "title": "Burger King, ул. Свердлова, 100",
+      "date": "2026-11-06",
+      "url": "https://maps.yango.com/org/burger_king/77488536859/"
+    }
+  ]
+}
